@@ -1,0 +1,29 @@
+Feature datasets and columns
+
+Call_Log: Information on the calls themselves
+    Agent_ID: ID of the call agent
+    Call_Date: The exact hour and date of the call
+    Talk_Time: Time the phone call took
+    After_Call_Work_Time: Time it took to wrap up after the phone call
+    Queue_Time: Time it took for the call to reach through
+
+Call_resolution_ID: ID of the resolution used
+    Call_Type_ID: The type of call
+    Plan_ID: The plan user used for their phone
+    Call_Resolution_Type
+    Call_resolution_ID: ID of the resolution used
+    Call_resolution_Description: Type of resolution. Includes "Call resolved by agent", "Transferred to other agent", and "Escalated to Supervisor"
+
+Call_Type
+    Call_Type_ID: ID of the type of the call
+    Call_Type_Description: The reason of the call. Includes "Billing & Payments", "Technical Support", "Service Changes", "Products & Services", and "General Inquiries".
+
+User_experience
+    Agent_ID: ID of the call agent
+    Call_Date: The exact hour and date of the call
+    User_Experience: How the customer rated the call experience
+
+Wireless_Plans
+    Plan_ID: The plan user used for their phone
+    Monthly_Fee: Cost of each month for the plan
+    Data_GB: Data limit of the plan
