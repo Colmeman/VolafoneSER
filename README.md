@@ -8,10 +8,10 @@ The back story is that we work for a fictitious telco company ‘VolaPhone’, a
 
 Speech Emotion Recognition (SER)
 
-1.	Selecting the audio datasets
-2.	Data Augmentation 
-3.	Feature Extraction
-4.	Modelling 
+1.	Selecting the audio datasets - used 4 pre recorded set of human emotion - Ravdess, Creama, Tess & Savee
+2.	Data Augmentation - added things like noise and time streching to make the pre recorded emotions mimic telephone distortion on recording, making them life like for a better prediction.
+3.	Feature Extraction - using Zero Crossing Rate, Chroma_stft, MFCC, RMS(root mean square) value MelSpectogram to train our model.
+4.	Modelling - KNN
 
 Data Sonification
 
