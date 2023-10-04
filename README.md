@@ -18,7 +18,7 @@ The back story is that we work for a fictitious telco company ‘VolaPhone’, a
 
 1.	Call Center Data Exploration - A dataset from a Call Center including emotions that (artificially) were added to it (CCDataExp). 
 2.	Data Visualization - Visualizing the AHT (Average Handle Time) and FCR (First Call Resolution) from the Dataset (CCDataViz).
-3.	Data Sonification - Sonifying the same AHT and FCR (CCDataSon)
+3.	Data Sonification - Sonifying the same AHT and FCR (CCDataSon).
 4.	Functions that returns the visualization and sonification of the AHT and FCR from an especific agent, in an especific period of time (AHTfunction and FCRfuction). 
 
 ## Data
